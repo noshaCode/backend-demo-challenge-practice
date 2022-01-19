@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The New York Times</title>
+</head>
+<body>
+    <h1>New article</h1>
+    <a href="/">Back</a>
+
+    <form method="POST" action="/new/article">
+        <div>
+            <label>Title:</label>
+        </div>
+        <div>
+            <input type="text" name="title"/>
+        </div>
+        <div>
+            <label>Article:</label>
+        </div>
+        <div>
+            <textarea rows="20" cols="30" name="article"> </textarea>
+        </div>
+        <div>
+            <button type="submit">Add article</button>
+        </div>
+    </form>
+</body>
+</html>
